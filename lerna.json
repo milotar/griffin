@@ -7,16 +7,17 @@
       "publish": {
         "ignoreChanges": [
           "*.md",
-          "*.txt",
-          "test/**"
+          "*.txt"
         ]
       },
       "version": {
-         "allowBranch": "master"
+         "allowBranch": "master",
+         "conventionalCommits": true,
+         "changelogPreset": "griffin"
       }
     },
     "changelog": {
-      "repo": "auto",
+      "repo": "milotar/griffin",
       "labels": {
         "PR: New Feature": ":rocket: New Features",
         "PR: Breaking Change": ":boom: Breaking Changes",
