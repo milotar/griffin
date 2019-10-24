@@ -19,12 +19,11 @@
     "changelog": {
       "repo": "milotar/griffin",
       "labels": {
-        "PR: New Feature": ":rocket: New Features",
-        "PR: Breaking Change": ":boom: Breaking Changes",
-        "PR: Bug Fix": ":bug: Bug Fix",
-        "PR: Documentation": ":memo: Documentation",
-        "PR: Internal": ":house: Internal",
-        "PR: Underlying Tools": ":hammer: Underlying Tools"
+        "feat": ":rocket: New Features",
+        "refactor": ":boom: Breaking Changes",
+        "fix": ":bug: Bug Fix",
+        "docs": ":memo: Documentation",
+        "chore": ":hammer: Underlying Tools"
       },
       "cacheDir": ".changelog"
     }
