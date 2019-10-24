@@ -1,16 +1,31 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
   "devDependencies": {
-    "cz-conventional-changelog": "3.0.2",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "commitizen": "^4.0.3",
+    "commitlint-config-cz": "^0.12.1",
+    "cz-customizable": "^6.2.0",
     "lerna": "^3.16.5"
   },
   "dependencies": {
-    "lerna-changelog": "^0.8.2"
+    "husky": "^4.0.0-beta.5",
+    "lerna-changelog": "^0.8.2",
+    "standard-version": "^7.0.0"
   },
   "config": {
     "commitizen": {
-      "path": "./cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   }
 }

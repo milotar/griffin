@@ -1,0 +1,14 @@
+# head: <type>(<scope>): <subject>
+# - type: feat, fix, docs, style, refactor, perf, test, chore, revert, ci
+# - scope: 可以是空的。如果更改是全局的或者很难分配到单个组件)
+# - subject: 以动词(如“change”)开头，每行50个字符
+#
+# body: 100个文字以内，示例:
+# * 为什么这此修改是必须的?
+# * 它如何解决这个问题的?
+# * 有什么副作用吗?
+#
+# footer: 
+# - 如果有链接，请包含链接地址.
+# - BREAKING CHANGE
+#
