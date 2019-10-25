@@ -1,7 +1,9 @@
 {
-  "name": "root",
+  "name": "griffin",
   "private": true,
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "changelog": "lerna-changelog",
     "commit": "git-cz",
     "release": "standard-version"
   },

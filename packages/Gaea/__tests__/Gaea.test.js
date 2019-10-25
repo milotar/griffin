@@ -2,6 +2,6 @@
 
 const gaea = require('..');
 
-describe('@griffin/Gaea', () => {
+describe('@griffin/gaea', () => {
     it('needs tests');
 });
