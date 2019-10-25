@@ -1,31 +1,28 @@
 {
-    "packages": [
-      "packages/*"
-    ],
-    "version": "independent",
-    "command": {
-      "publish": {
-        "ignoreChanges": [
-          "*.md",
-          "*.txt"
-        ]
-      },
-      "version": {
-         "allowBranch": ["master","develop"],
-         "conventionalCommits": true,
-         "changelogPreset": "griffin"
-      }
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": ["packages/*"],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "*.txt"]
     },
-    "changelog": {
-      "repo": "milotar/griffin",
-      "labels": {
-        "feat": ":rocket: New Features",
-        "refactor": ":boom: Breaking Changes",
-        "fix": ":bug: Bug Fix",
-        "docs": ":memo: Documentation",
-        "chore": ":hammer: Underlying Tools"
-      },
-      "cacheDir": ".changelog"
+    "version": {
+      "allowBranch": ["master", "develop"]
     }
+  },
+  "changelog": {
+    "repo": "milotar",
+    "labels": {
+      "feat": ":rocket: New Features",
+      "refactor": ":boom: Breaking Changes",
+      "fix": ":bug: Bug Fix",
+      "docs": ":memo: Documentation",
+      "chore": ":hammer: Underlying Tools"
+    },
+    "cacheDir": ".changelog"
+  },
+  "publishConfig": {
+    "access": "public"
   }
-  
+}

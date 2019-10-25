@@ -1,5 +1,5 @@
 {
-  "name": "@griffin/gaea",
+  "name": "@minotar/gaea",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "zhaocongcong <zhaocongcong@autohome.com.cn>",
@@ -25,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/milotar/griffin/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "vue": "^2.6.10"
   }
 }

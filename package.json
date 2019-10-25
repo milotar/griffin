@@ -1,6 +1,9 @@
 {
-  "name": "griffin",
+  "name": "minotar",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "changelog": "lerna-changelog",
