@@ -5,7 +5,9 @@
   "version": "independent",
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md", "*.txt"]
+      "ignoreChanges": ["*.md", "*.txt"],
+      "conventionalCommits": true,
+      "exact": true
     },
     "version": {
       "allowBranch": ["master", "develop"]
